@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch({
     product: 'chrome',
     headless: false,  // Mode non-headless pour voir le navigateur ouvert
-    executablePath: '/usr/bin/google-chrome',
+    // executablePath: '/usr/bin/google-chrome', linux matthieu
     args: ['--start-maximized']  // Argument pour ouvrir le navigateur en mode plein écran
   });
 
